@@ -9,7 +9,7 @@ Para garantir que todas as mensagens git sigam o mesmo padrão, vamos usar o com
 ## Formatos de confirmação
 
 <pre>
-<b><a href="#types">&lt;tipo&gt;</a></b></font>(<b><a href="#scopes">&lt;escopo opcional&gt;</a></b>): <b><a href="#subject">&lt;assunto&gt;</a></b>
+<b><a href="#-Tipo">&lt;tipo&gt;</a></b></font>(<b><a href="#-Escopo">&lt;escopo opcional&gt;</a></b>): <b><a href="#-assunto">&lt;assunto&gt;</a></b>
 <sub>linha separadora vazia </sub>
 <b><a href="#body">&lt;copo opcional&gt;</a></b>
 <sub>linha separadora vazia</sub>
@@ -18,9 +18,10 @@ Para garantir que todas as mensagens git sigam o mesmo padrão, vamos usar o com
 
 De modo simples é isso :
 
-```
-Tipo(escopo, se quiser colocar): assunto 
-```
+<pre>
+<b><a href="#-Tipo">&lt;Tipo&gt;</a></b></font>(<b><a href="#-Escopo">&lt;escopo, se quiser adicionar&gt;</a></b>):<b><a href="#-Assunto">&lt;assunto&gt;</a></b>
+</pre>
+
 >PS.: Escreva sempre em inglês. 
 
 ### Escopo
@@ -39,6 +40,8 @@ O `assunto` contém uma descrição sucinta da mudança.
 - Use o tempo presente imperativo: "muda" e não "mudar" nem "mudar".
 - Não coloque a primeira letra em maiúscula. 
 - Sem ponto (.) No final. 
+
+## Tipo
 
 A mensagem git deve ter um _*tipo*_. Poderia ser:
 
