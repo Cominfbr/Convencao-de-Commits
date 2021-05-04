@@ -36,7 +36,7 @@ O `escopo` fornece informações contextuais adicionais.
 O `assunto` contém uma descrição sucinta da mudança.
 
 - É uma parte obrigatória do formato. 
-- Use o tempo presente imperativo: "mudar" e não "mudar" nem "mudar".
+- Use o tempo presente imperativo: "muda" e não "mudar" nem "mudar".
 - Não coloque a primeira letra em maiúscula. 
 - Sem ponto (.) No final. 
 
@@ -55,49 +55,60 @@ A mensagem git deve ter um _*tipo*_. Poderia ser:
 - `chore`: Atualização de tarefas grunhidas etc; sem alteração do código de produção. 
 
 ## Exemplos:
+
 Os exemplos a seguir são feitos com a sua forma em inglês e o assunto em português-BR em parênteses () 
 
-* ```
+```
 build: update dependencies(atualiza dependências)
 ```
+---
 
-* ```
+```
 ci: setup travis credentials(configura credenciais travis) 
 ```
+---
 
-* ```
+```
 refactor: move scripts(move scripts) 
 ```
+---
 
-* ```
+```
 fix: use user agent provided by parameters(usa o agente do usuário fornecido por parâmetros) 
 ```
+---
 
-* ```
+```
 test: update snapshots(atualizações instantâneas) 
 ```
+---
 
-* ```
+```
 style: use space instead of tabs(usa espaço em vez de guias)
 ```
+---
 
-* ```
+```
 feat(shopping cart): add the amazing button(adiciona botão incrível)
 ```
+---
 
-* ```
+```
 feat(lang): add polish language
 ```
+---
 
-* ```
+```
 build: release version 1.0.0 -> para versões no github.
 ```
+---
 
-* ```
+```
 docs: correct spelling of CHANGELOG(ortografia correta de CHANGELOG) 
 ```
+---
 
-* ```
+```
 fix: correct minor typos in code (corrige pequenos erros de digitação no código) 
 
 see the issue for details on typos fixed.(veja o ticket para detalhes sobre os erros de digitação corrigidos) 
